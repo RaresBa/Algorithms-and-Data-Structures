@@ -1,0 +1,6 @@
+To choose the value of k in the variant of the Merge Sort we need to think about the effiency and the overhead.
+For the effiency, larger k values will lead to worst-case and average-case time complexities wich will aproache O(n log n). 
+However, larger k values will also introduce more overhead as Insertion Sort is less effienct to larger arrays.
+Smaller values of k may reduce the overhead and decrease the worst-case and average-case time complextiies.
+So, when we want to decide about the value of k we need to test and analyez the characteristics of the input data.
+

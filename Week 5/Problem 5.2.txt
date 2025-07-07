@@ -1,0 +1,19 @@
+a) Approximating the time complexity for brute-force multiplication:
+Brute-force multiplication performs n^2 digit multiplications, each taking O(n) time.
+Thus, the overall time complexity is O(n^2)
+
+b)Developing a Divide & Conquer algorithm:
+The Divide & Conquer algorithm splits a and binto two halves, yielding four subproblems. 
+By recursively computing these subproblems and combining the results, the final product a*b is obtained.
+
+c)Deriving a recurrence for the time complexity:
+The time complexity recurrence is T(n)=4T(n/2)+O(n) where 4T(n/2) represents the subproblem computations and O(n)
+the combining operations.
+
+d)Solving the recurrence using the recursion tree method:
+Visualizing the recursion tree, we sum costs at each level.
+The total cost is  T(n)=n(2n-1)=2n^n, resulting in a time complexity of O(n^2).
+
+e)Validating the result using the master theorem:
+The recurrence T(n)=4T(n/2)+O(n) falls under Case 1 of the master theorem. 
+With a=4,b=2 and f(n)=O(n), the time complexity is O(n^2), consistent with the cursion tree method.

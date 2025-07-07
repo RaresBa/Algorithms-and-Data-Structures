@@ -1,0 +1,9 @@
+Insertion Sort - This is an adaptive algorithm. It is efficient with partially sorted arrays, it tries to minimize comparisons and
+swaps, having a time complexity of O(n^2). Thus, it benefits from the pre-sortedness in the input sequence and sorts faster. 
+
+Merge Sort - This is not an adaptive algorithm. It divides an array and has a fix time complexity of O(n log n).
+
+Heap Sort - This is not a Merge Sort algorithm. It does not consider presorted lists, it constructs a heap and has a fixed time 
+complexity of 0(n log n).
+
+Bubble Sort - This is an adaptive sort algorithm. It detects if the array is sorted in the begging. The time complexity is O(n^2).

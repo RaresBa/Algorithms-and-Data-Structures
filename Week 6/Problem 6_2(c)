@@ -1,0 +1,3 @@
+The Heap Sort variant from subpoint(b) has a better time complexity for all casse(worst-case,avarage-case and best-case) than the
+original variant. The variant from subpoint(b) is better because it takes into consideration when an element that was swapped to become
+the new root is typically small and thus would float down to a leaf level in most cases so it saves time in different scenario.

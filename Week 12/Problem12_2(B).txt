@@ -1,0 +1,2 @@
+For the Dynamic Programming, the algorithm iterates over the all elements of the triangle only once => the time complexity of it is O(n^2).
+For the Brute Force,  the algorithm iterates over the all elements,checking from the top of the triangle to the botoom => the time complexity will be higher O(2^n).

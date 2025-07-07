@@ -1,0 +1,17 @@
+Let's first imagine we have a set of three activities that we can choose from to fill a day:
+    1.  Activity A: Starts at 8:00 AM and ends at 12:00 PM (4 hours) => studying
+    2.  Activity B: Starts at 9:00 AM and ends at 10:00 AM (1 hour) => video games
+    3.  Activity C: Starts at 10:00 AM and ends at 2:00 PM (4 hours) => working
+
+The goal of the activity-selection problem is to select the maximum number of mutually compatible activities. They are compatible if
+their time intervals do not overlap.
+
+Let's apply a greedy algorithm that chooses activities based on the shortest duration first, we would select:
+Activity B first because it is only 1 hour long. =>Activity A and Activity C are incompatible because they overlap with Activity B.
+=> we end up selecting only one activity for the day.
+
+However, the optimal solution is to select Activities A and C, because they do not overlap with each other and cover more time during 
+the day. => we can fit two activities instead of just one.
+
+This example shows that selecting activities based only on the shortest duration can overlook better combinations that allow more
+activities to happen in one day.

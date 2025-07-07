@@ -1,0 +1,9 @@
+Worst Case - This case occurs when the input array is sorted in a reverse order so the sorting algorithm needs to perform the maximum
+number of sawps and comparisons. For this case we need n*(n-1)/2 (for an array with n elements) comparisons and swaps so the time
+complexity will be O(n^2).
+
+Average Case - For this case we will need n*n(n-1)/4 (for an array with n elements) comparisons and swaps because each element has a
+chance of 50% to be in the wrong order in rispect to its adjacent elemnt. The time complexity will be O(n^2).
+
+Best Case - This case occurs when the input is already sorted. For this case we will need only n-1 (for an array with n elements)
+comparisons just to pass through the array. The time complexity will be O(n).

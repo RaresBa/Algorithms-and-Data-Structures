@@ -1,0 +1,44 @@
+Step 1: 
+    Add(13) --> 13(B)
+    Here 13 is Black because it is the root of the tree
+
+Step 2:
+    Add(44) --> 13(B)
+                  \
+                  44(R)
+    Here 44 is Red because it is a a leef
+
+Step 3:
+    Add(37 and 7) --> 13(B)
+                      /   \
+                    7(R)   44(R)
+                            /
+                          37(R)
+    Here 37 is Red and it makes a rotation and recoloring.
+
+Step 4:
+    We make the rotation --> 13(B)
+                            /     \
+                        7(B)      44(B)
+                                    /
+                                  37(R)
+
+Step 5:
+    Add(22) --> 13(B)
+               /     \
+            7(B)    44(R)
+            /  
+          22(R) 
+            \
+            37(R)
+    Here 22 is Red it makes a rotation and recoloring
+
+Step 6:
+    Add(16) --> 13(B)
+                /   \
+            7(B)     37(B)
+            /           \
+           16(R)        44(R)
+           /
+          22(R)
+    Here 16 is added and it makes a recoloring. The last change of the tree.             

@@ -1,0 +1,9 @@
+The Bubble Sort Algorithm:
+
+function Bubble_Sort( array )
+    for i starting at 0 to length of array do
+        for j starting at 0 to length of array-2-i
+            if array[j]>array[j+1] then
+                swap=array[j]
+                array[j]=array[j+1]
+                array[j+1]=swap

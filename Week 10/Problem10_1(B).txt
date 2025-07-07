@@ -1,0 +1,17 @@
+With the values {1,2,3,4} you can create 2 trees:
+
+a)Tree 1:
+         2(B)
+        /  \
+    1(R)  3(R)
+             \
+            4(B)
+
+b)Tree 2:
+        2(B)
+        /   \
+    1(R)  4(R)
+            \
+             3(B)
+
+    

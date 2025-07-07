@@ -1,0 +1,29 @@
+An in-situ algorithm for a Reversed Linked List:
+
+#
+reverse_list(head):
+    if head is NULL or heaxd(next) is NULL:
+        return head
+    
+    pre=NULL
+    current=head
+    node=NULL
+
+    while current is != NULL:
+        node=current.next  
+        current.next=pre
+        pre=current
+        current=next
+
+    return prev
+#
+
+Explanation:
+
+This algorithm reverses the linked list, it modifies the existing nodes of the list
+without creating any new nodes. It traverses the linked list from head to tail.The time
+complexity is O(n) for n elements.
+
+It is an in-situ algorithm because it uses directly the inputed list without requiring
+any extra memory. The revers is done by chaning pointers with in the nodes and not creating a
+a new one.

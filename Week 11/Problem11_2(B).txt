@@ -1,0 +1,14 @@
+The Algorithm Description:
+
+1. Initialize the Problem: We start with an empty set of selected activities(Choosen in advance) which we will call "S".
+We define last_end= -∞ , which will track the ending time of the last activity.
+
+2. Iterative Selection: In each iteration we look for the activity that starts the latest but before last_End.
+We will define latest_s_activity= NULL which will be the last activity that starts and latest_s= −∞ at the start of each iteration.
+We go trough all activities, for each activity we will call it "a_i" from the set S we have a starting time "st" and an end time "et".
+If we have  a_i >= last_end and a_i>latest_s => latest_s_activity=a_i and latest_s=a_i.
+
+3. Final Selection: If latest_s_activity is found =>we add latest_s_activity to set S and last_End=end time of latest_s_activity. If it 
+is not found => the Algorithm stops and returns an error.
+
+4. Final: We return set S that contains the all activities.

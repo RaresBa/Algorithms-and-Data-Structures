@@ -1,0 +1,11 @@
+For best case time complexity:
+    For small k values, the best-case time complexity remains O(n log n),as most work is done by merging.
+    For large k values, the perfomance might degrease beacuse of the insertion sort overhead.
+
+For average case time complexity:
+    For small k values, the average-case time complexity will slightliy worsen beacuse of the Insertion Sort overhead.
+    For large k values, the average-case complexity might approach 0(n logn).
+
+For worst case time complexity:
+    For small k, the worst-case time complexity will decrease to O(n^2) bgeacuse of the Insertion Sort.
+    For larker k, the worst-case values will improve, approaching O(n logn).   

@@ -1,0 +1,25 @@
+<3,10,2,4> --> to use the double hashing techique we need a table of size m=5 with h1(k)=k mod 5 and h2(k)=7k mod 8.
+
+For element 3:
+    For h1(3)=3 mod 5=3
+    We place 3 in slot 3 => no collision
+
+For element 10:
+    For h1(10)=10 mod 5=0
+    We place 10 in slot 0 => no collision
+
+For element 2:
+    For h1(2)=2 mod 5=2
+    Place 2 in slot 2 => no collision
+
+For element 4:
+    For h1(4)=4 mod 5=4
+    For h2(4)=7*4 mod 8=28 => mod 8=4
+    We place 4 in slot 4 => no collision
+
+The Hash Table:
+    Slot 0 --> 10
+    Slot 1 --> Empty
+    Slot 2 --> 2
+    Slot 3 --> 3
+    Slot 4 --> 4

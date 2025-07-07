@@ -1,0 +1,14 @@
+Insertion Sort - This is a stable sorting algorithm. It checks through out the list, taking the next element and inserting it
+into the sorted portion of the list. When elements with equal values are encountered, Insertion Sort does not change their 
+order. It always inserts the new element after all elements with the same values that gives the algorithm stabilty.
+
+Merge Sort - This is also a stable sorting algorithm. It works by dividing the list into smaller sublists, sorting 
+them, and then merging them back together sorted. When combining two sorted sublists into one sorted list, it always takes 
+the  order of equal elements from the original lists. Therefore, it maintains stability.
+
+Heap Sort - This is not a stable sorting algorithm. It involves building a heap from the input list and then is removing the
+maximum element from the heap and it is placing it at the end of the list. This involves swapping elements which leads to instability.
+
+Bubble Sort: Bubble Sort is a stable sorting algorithm. It compares elements and swaps them if they are in the wrong order of sorting. 
+When two elements with equal values are compared, no swap occurs, ensuring that their order is maintained. 
+Therefore, Bubble Sort maintains stability.
